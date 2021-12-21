@@ -1,0 +1,11 @@
+\\Mac\Home\Desktop\DoAnCuoiKi\DoAnCuoiKi\bin\Debug\DoAnCuoiKi.exe.config
+\\Mac\Home\Desktop\DoAnCuoiKi\DoAnCuoiKi\bin\Debug\DoAnCuoiKi.exe
+\\Mac\Home\Desktop\DoAnCuoiKi\DoAnCuoiKi\bin\Debug\DoAnCuoiKi.pdb
+\\Mac\Home\Desktop\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.csproj.SuggestedBindingRedirects.cache
+\\Mac\Home\Desktop\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.LoginForm.resources
+\\Mac\Home\Desktop\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.Properties.Resources.resources
+\\Mac\Home\Desktop\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.exe
+\\Mac\Home\Desktop\DoAnCuoiKi\DoAnCuoiKi\obj\Debug\DoAnCuoiKi.pdb
