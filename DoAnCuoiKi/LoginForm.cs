@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DoAnCuoiKi.DAO;
+using DoAnCuoiKi.DTO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,24 +19,22 @@ namespace DoAnCuoiKi
             InitializeComponent();
         }
 
-        //private void label1_Click(object sender, EventArgs e)
-        //{
+        private void loginButton_click(object sender, EventArgs e)
+        {
+            // retrieve data from boxes
+            String user = userBox.Text;
+            String password = passBox.Text;
 
-        //}
-
-        //private void label2_Click(object sender, EventArgs e)
-        //{
-
-        //}
-
-        //private void button1_Click(object sender, EventArgs e)
-        //{
-
-        //}
-
-        //private void userBox_TextChanged(object sender, EventArgs e)
-        //{
-
-        //}
+            // VERIFY USER
+            if (AccountDAO.Instance.login(user, password))
+            {
+                // verified
+                AccountDTO acc = AccountDAO.Instance.getAccountByUser(user);
+                Hide();
+                WarehouseManagementForm f = new WarehouseManagementForm(acc);
+                f.ShowDialog();
+            }
+            else MessageBox.Show("Username or password is incorrect", "Cannot verify", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
     }
 }
